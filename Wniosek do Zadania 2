@@ -1,0 +1,5 @@
+Zadanie 2
+Szablony funkcji bardzo ułatwiają pisanie programu i są bardzo przydatne. 
+Dzięki nim nie muszę sztywno deklarować typów moich zmiennych, mogę to zrobić dopiero podczas wywoania konkretnej funkcji w kodzie. 
+Wywołując tę samą metodę mogę wywoływać ją z argumentami różnych typów bez żadnych komplikacji. 
+Co pokazuję mój program gdzie wyświetlam string razem ze zmienną double. Mój program realizuję proste mnożenie a także dodawanie.
