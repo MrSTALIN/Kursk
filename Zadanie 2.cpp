@@ -52,8 +52,8 @@ template <typename T> void modulo(T a, T b)
 int _tmain(int argc, _TCHAR* argv[])
 {
 
-	cout << "Example 1";
-	szablon <int, double> example1(66, 0.9999);
+	cout << "\nExample 1";
+	szablon <int, double> example1(66789, 0.9999);
 	example1.wyswietl();
 
 	cout << "\nExample 2";
@@ -61,8 +61,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	example2.wyswietl();
 
 	cout << "\nExample 3";
-	szablon <string, double> example3("Something", 0.9999);
-	example3.wyswietl();
+	szablon <char, int> example3('X', 9);
+	example4.wyswietl();
+	
+	cout << "\nExample 4";
+	szablon <double,string > example4(0.9999", Something" );
+	example4.wyswietl();
 	
 	cout << "\n\nWorking on different types of variables :  ";
 
