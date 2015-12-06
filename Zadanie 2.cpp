@@ -43,8 +43,8 @@ template <typename T> void addition(T a, T b)
 
 template <typename T> void modulo(T a, T b)
 {
-	cout << a << " % " << b << " = ";
-	a = a%b;
+	cout << a << " * " << b << " = ";
+	a = a*b;
 
 	cout << a << endl;
 }
@@ -72,7 +72,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	addition<double>(-12.3456789, 0.9999 );
 	cout << "\n" << endl;
 
-	modulo<int>(202125, 12546);
+	modulo<long int>(202125, 12546);
 
 	getchar();
 	cout << PL("Nciśnij co kolwiek, aby wyjść z konosli");
